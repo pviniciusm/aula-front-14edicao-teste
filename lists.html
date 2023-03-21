@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Growdev - Listas</title>
+
+        <style>
+            #compras {
+                list-style-type: none;
+            }
+
+            #classificacao {
+                list-style-type: upper-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Growdev</h1>
+            <h2>Listas em HTML</h2>
+        </header>
+
+        <hr />
+
+        <main>
+            <section>
+                <h2>Listas não ordenadas</h2>
+
+                <h3>Lista de compras</h3>
+                <ul id="compras">
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                    <li>Maionese</li>
+                    <li>
+                        Cerveja
+                        <ul>
+                            <li>Heineken</li>
+                            <li>Stela</li>
+                            <li>Corona</li>
+                        </ul>
+                    </li>
+                    <li>Pão</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Listas ordenadas</h2>
+
+                <h3>Classificação de growdevers</h3>
+                <ol id="classificacao">
+                    <li>João</li>
+                    <li>Joana</li>
+                    <li>Manoel</li>
+                    <li>Marcelo</li>
+                    <li>Juliana</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Lista de definições</h2>
+
+                <h3>Glossário de tags HTML</h3>
+                <dl>
+                    <dt>h1</dt>
+                    <dd>Define um título no documento.</dd>
+
+                    <dt>p</dt>
+                    <dd>Define um parágrafo no documento.</dd>
+                    <dd>Garante um espaço de bloco para o elemento.</dd>
+
+                    <dt>div</dt>
+                    <dt>section</dt>
+                    <dd>Cria uma divisão lógica dentro do documento.</dd>
+                </dl>
+            </section>
+        </main>
+    </body>
+</html>

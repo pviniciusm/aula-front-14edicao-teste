@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Growdev - Tabelas</title>
+
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            table,
+            tr,
+            td,
+            th {
+                border: 1px solid black;
+            }
+
+            tr,
+            td,
+            th {
+                padding: 4px;
+            }
+
+            td {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Growdev</h1>
+            <h2>Tabelas em HTML</h2>
+        </header>
+
+        <hr />
+
+        <main>
+            <h2>Tabela de alunos da growdev</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Edição</th>
+                        <th>Nota #1</th>
+                        <th>Nota #2</th>
+                        <th>Média</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João</td>
+                        <td>14</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Joana</td>
+                        <td>14</td>
+                        <td>9.5</td>
+                        <td>8</td>
+                        <td>8.75</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Manoel</td>
+                        <td rowspan="2">8</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>7.5</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Marcelo</td>
+                        <td colspan="2">10</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

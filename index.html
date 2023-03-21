@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="growdev" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meu primeiro HTML</title>
+        <link rel="shortcut icon" href="img/whats.png" type="image/x-icon" />
+        <style>
+            #titulos {
+                color: red;
+            }
+
+            .red {
+                color: red;
+            }
+
+            .artigo {
+                color: #222;
+            }
+
+            .bg-color {
+                background-color: rgb(255, 218, 178);
+            }
+
+            .p-12 {
+                padding: 15px;
+            }
+
+            .p-8 {
+                padding: 9px;
+            }
+
+            .p-4 {
+                padding: 5px;
+            }
+
+            a {
+                color: orange;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: red;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: green;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p style="color: #2b7b57; font-weight: bold">Bem vindo ao site</p>
+
+            <nav class="bg-color">
+                <ul style="list-style-type: none">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li><a href="lists.html">Lists</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li>
+                        <img
+                            title="Imagem da growdev"
+                            onclick="minhaFuncao()"
+                            src="img/logo-dark.png"
+                            alt="Logo da growdev"
+                            width="90"
+                        />
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Seção de títulos -->
+        <main class="bg-color p-4">
+            <div id="titulos">
+                <h1>Growdev &#128512; !</h1>
+                <h2>Programa Starter</h2>
+            </div>
+            <h3>Web Full Stack</h3>
+        </main>
+
+        <!-- Seção de notícias -->
+        <section>
+            <article class="artigo bg-color">
+                <h1>Titulo da notícia</h1>
+                <p style="text-align: justify">
+                    <strong>Mussum Ipsum</strong>, <em>cacilds vidis</em>
+                    <u>litro abertis</u>. Pra lá , depois divoltis porris,
+                    paradis.<span class="red"
+                        >Manduma pindureta quium dia nois paga.Si num tem leite
+                        então bota uma pinga aí cumpadi!</span
+                    >
+                </p>
+            </article>
+
+            <article class="artigo bg-color p-4">
+                <h1>Titulo da notícia</h1>
+                <p>
+                    <strong>Mussum Ipsum</strong>, <em>cacilds vidis</em>
+                    <u>litro abertis</u>. Pra lá , depois divoltis porris,
+                    paradis.Manduma pindureta quium dia nois paga.Si num tem
+                    leite então bota uma pinga aí cumpadi!
+                </p>
+                <p>
+                    <i>Este texto está em itálico</i>
+                    <br />
+                    <del>Este texto foi excluído</del>
+                </p>
+                <p>
+                    <small>Este texto é pequeno</small>
+                </p>
+                <p>Log 10<sub>2</sub></p>
+                <p>10<sup>2</sup></p>
+                <p>Este é um texto <mark>marcado</mark></p>
+            </article>
+        </section>
+
+        <div>
+            <h1>Titulo</h1>
+            Este é um exemplo de div.
+        </div>
+
+        <section>
+            <a
+                title="Clique aqui para fazer o cadastro no codaí"
+                href="https://codai.growdev.com.br/"
+            >
+                Cadastre-se no Codaí
+            </a>
+
+            <a href="https://www.growdev.com.br/" target="_blank">
+                <img
+                    title="Imagem da growdev"
+                    onclick="minhaFuncao()"
+                    src="img/logo-dark.png"
+                    alt="Logo da growdev"
+                    width="90"
+                />
+            </a>
+
+            <a href="">
+                <button>Clique aqui</button>
+            </a>
+
+            <br /><br /><br />
+        </section>
+
+        <footer>
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            >
+            </iframe>
+        </footer>
+    </body>
+</html>
