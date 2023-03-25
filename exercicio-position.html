@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercicio position</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: content-box;
+            }
+
+            body {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            #caixa1,
+            #caixa3 {
+                float: left;
+            }
+
+            #caixa2,
+            #caixa4 {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div
+            id="caixa1"
+            style="height: 200px; width: 200px; background-color: brown"
+        ></div>
+
+        <div
+            style="
+                height: 200px;
+                width: 200px;
+                background-color: rgb(116, 47, 47);
+            "
+            id="caixa2"
+        ></div>
+
+        <div style="clear: both"></div>
+
+        <div style="position: absolute; bottom: 0; width: 100%">
+            <div
+                style="
+                    height: 200px;
+                    width: 200px;
+                    background-color: rgb(225, 15, 15);
+                "
+                id="caixa3"
+            ></div>
+            <div
+                style="
+                    height: 200px;
+                    width: 200px;
+                    background-color: rgb(195, 153, 153);
+                "
+                id="caixa4"
+            ></div>
+        </div>
+    </body>
+</html>

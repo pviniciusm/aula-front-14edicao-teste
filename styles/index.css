@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap");
+
+html {
+    font-size: 12px;
+}
+
+h1 {
+    background-color: brown;
+}
+
+#sec1 {
+    color: beige;
+    background-color: black;
+}
+
+.secao {
+    font-size: 32px;
+}
+
+section > p {
+    background-color: blue;
+}
+
+section + p {
+    font-size: 32px;
+}
+
+#pizza,
+#pizza ~ li {
+    color: red;
+}
+
+#texto {
+    color: orange;
+}
+
+#paragrafo {
+    font-size: 2rem;
+    font-family: "Lato", "Trebuchet MS", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    /* font-style: italic;
+    text-decoration: line-through; */
+}
+
+body {
+    /* background-color: rgb(20, 90, 59);
+
+    background-image: url("https://i.pinimg.com/originals/d8/2a/0b/d82a0bb93293c20f33ad78c8f4eb3354.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    /* background-size: 100vw 100vh; */
+
+    /* background-size: cover; */
+
+    height: 100vh;
+}
+
+#caixa {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+
+    /* position: absolute;
+    top: 100px;
+    left: 200px; */
+
+    position: relative;
+
+    overflow: auto;
+}
+
+#caixa-interna,
+#caixa-interna-2 {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(194, 149, 149);
+
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+
+#caixa-interna-2 {
+    top: 120px;
+    left: 100px;
+    background-color: rgb(219, 105, 25);
+}
+
+#radius {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: right;
+}
+
+#scroll {
+    background-color: rgb(48, 48, 48);
+    color: rgb(166, 166, 166);
+    padding: 16px;
+    height: 30px;
+
+    overflow: auto;
+}

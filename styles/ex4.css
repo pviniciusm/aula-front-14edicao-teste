@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: rgb(146, 146, 146);
+}
+
+.caixa {
+    height: 100px;
+    width: 100px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(37, 37, 37);
+}
+
+.left .caixa {
+    float: left;
+}
+
+.right .caixa {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#linha3 .caixa:first-child {
+    float: left;
+}
+
+#linha3 .caixa:last-child {
+    float: right;
+}
